@@ -24,7 +24,7 @@ public class StringOps {
     //////                                               ///////
     ////////////////////////////////////////////////////////////
     public static void main(String[] args) {
-        String s = "vowels are fun", check1, s2 = "MMMM";
+        String s = "One two tHRee world", check1, s2 = "MMMM";
 		char char1 = 'M';
 		check1 = capVowelsLowRest (s);
 		System.out.println("The capVowelsLowRest is: " + check1);
@@ -34,7 +34,7 @@ public class StringOps {
     }
 
     public static String capVowelsLowRest (String string) {
-		String vowels = "aeiou";
+		String vowels = "aeiouAEIOU";
 		int ascii;
         char ch;
         for (int i = 0; i< string.length(); i ++){		
